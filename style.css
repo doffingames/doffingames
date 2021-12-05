@@ -62,7 +62,7 @@ body {
   height: 50px;
   justify-content: center;
   display: flex;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans";
   color: #f2c824; 
   filter: drop-shadow(3px 3px 1px #fb6ba7);
   /* fb6ba7 pink */
