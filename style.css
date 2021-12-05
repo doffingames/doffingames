@@ -1,0 +1,98 @@
+:root {
+  --color-bg: #7ec4d5;
+}
+
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+body {
+  background-color: var(--color-bg);
+}
+
+.wavesView {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  place-items: center;
+  margin: -10px;
+  background-color: #f2c824;
+}
+
+.waves { 
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  background: url("./assets/waves-yellow.png") center repeat-x;
+  background-size: auto 100%;
+  display: flex;
+}
+
+.images {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.doffin {
+  height: 237px;
+  width: auto;
+  margin-top: 80px;
+}
+
+.logo {
+  /* flex: 1 1 auto; */
+  height: 122px;
+  width: 223px;
+}
+
+.comingsoon {
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  position: fixed;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #f2c824; 
+  filter: drop-shadow(3px 3px 1px #fb6ba7);
+  /* fb6ba7 pink */
+}
+
+.buttons {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: transparent;
+  bottom: 20px;
+  /* left: 0; */
+  display: flex;
+  justify-content: center;
+}
+
+.btn-group button {
+  background-color: #7ec4d5;
+  color: white; 
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:hover {
+  background-color: #f2c824;
+}
