@@ -70,10 +70,10 @@ body {
 
 .buttons {
   position: fixed;
-  height: 100px;
+  /* height: 100px; */
   width: 100%;
   background-color: transparent;
-  bottom: 20px;
+  bottom: 100px;
   /* left: 0; */
   display: flex;
   justify-content: center;
