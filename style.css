@@ -49,7 +49,6 @@ body {
 }
 
 .logo {
-  /* flex: 1 1 auto; */
   height: 122px;
   width: 223px;
 }
@@ -65,16 +64,13 @@ body {
   font-family: "Comic Sans MS", "Comic Sans";
   color: #f2c824; 
   filter: drop-shadow(3px 3px 1px #fb6ba7);
-  /* fb6ba7 pink */
 }
 
 .buttons {
   position: fixed;
-  /* height: 100px; */
   width: 100%;
   background-color: transparent;
-  bottom: 100px;
-  /* left: 0; */
+  bottom: 150px;
   display: flex;
   justify-content: center;
 }
